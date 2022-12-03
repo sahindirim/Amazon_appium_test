@@ -78,3 +78,7 @@ class Amazon_test(webdriver):
         self.driver.find_element(By.XPATH, "//android.widget.Button[@bounds='[399,846][972,894]']").click()
         self.driver.find_element(By.XPATH, "//android.widget.RelativeLayout[@bounds='[0,2070][1080,2139]']").click()
         self.driver.find_element(By.XPATH, "//android.widget.Image[@bounds='[48,1077][489,1401]']").click() # Select highest one
+
+
+class BoxTestCases:
+    pass
